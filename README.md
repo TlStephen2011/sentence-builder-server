@@ -12,6 +12,9 @@ docker run -dit -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=password mysql
 
 Once running create database SentenceBuilder
 
+
+### Install packages
+
 ```
 npm install
 ```
@@ -23,4 +26,6 @@ npm run start
 
 ###
 
+### First run
 
+Database tables will be created on first run with relevant data. For the second run please comment out table population in app.js
